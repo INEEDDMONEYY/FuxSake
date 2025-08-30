@@ -1,8 +1,9 @@
 //CSS import not working.
 //Image import not working, image pathing is obiviously not correct, Searching for a fix.
+import '../css/Navbar.css'
 
 //Component function
-function navBar() {
+function NavBar() {
     //Navbar Function
     function collapse() {
         const navbarCollapse = document.getElementById('navbar-collapse');
@@ -45,4 +46,4 @@ function navBar() {
 }
 
 //export function
-export default navBar
+export default NavBar
